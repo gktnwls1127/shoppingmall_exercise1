@@ -36,7 +36,7 @@ function UserCardBlock(props) {
                     </tr>
                 </thead>
                 <tbody>
-                    {renderItems()}
+                    {renderItems}
                 </tbody>
             </table>
         </div>
