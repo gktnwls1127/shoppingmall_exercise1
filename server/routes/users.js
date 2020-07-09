@@ -211,7 +211,7 @@ router.post('/successBuy', auth, (req, res) => {
                                 "sold" : item.quantity
                             }
                         },
-                        { new : false},
+                        { new : false },
                         callback
                     )
                 }, (err) => {
